@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-photo/green-product-background_53876-90134.jpg);
+            background-attachment: fixed;
+            background-size:100%;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns: 50% 50%;
+            margin:100px;
+        }
+        #product{
+            border:1px;
+            text-align:center;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin:20px;
+            border-radius:20px;
+            transition:0.5s;
+        }
+        #product:hover{
+            box-shadow: 20px 20px 60px;
+        }
+        img{
+            height:200px;
+            padding-top:10px;
+        }
+        button{
+            font-size:20px;
+            margin:20px;
+            background-color: green;
+            transition:0.5s;
+            color:white;
+        }
+        button:hover{
+            font-size:25px;
+        }
+        h1{
+            text-align: center;
+            margin:100px;
+            font-size:40px;
+            color:white;
+            letter-spacing: 25px;;
+        }
+        p{
+            font-size:25px;
+        }
+        b{
+            font-size:25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PRODUCTS</h1>
+    <div class="grid">
+        <div id="product">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/l48s9zk0/dumbbell/y/o/f/pvc-dumbbell-set-4kg-x-2-pcs-1-pair-dumbbells-hex-dumbbells-home-original-imagf6rzhvqk7ttf.jpeg?q=90&crop=false">
+            <p>Pair of 6KG Dumbells</p>
+            <b>Rs. 650</b><br>
+            <button>Buy Now</button>
+        </div>
+        <div id="product">
+            <img src="https://m.media-amazon.com/images/I/61w9shVcV7L.jpg">
+            <p>15Kg Hand Grip</p>
+            <b>Rs. 150</b><br>
+            <button>Buy Now</button>
+        </div>
+        <div id="product">
+            <img src="data:image/jpeg;base64,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">
+            <p>Wrist Band</p>
+            <b>Rs. 200</b><br>
+            <button>Buy Now</button>
+        </div>
+        <div id="product">
+            <img src="https://m.media-amazon.com/images/I/71b5fW+s18L._AC_UF1000,1000_QL80_.jpg">
+            <p>Nivia Yoga Mat 10mm Blue</p>
+            <b>Rs. 1399</b><br>
+            <button>Buy Now</button>
+        </div>
+       
+    </div>
+</body>
+</html>
